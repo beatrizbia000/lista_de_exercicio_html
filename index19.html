@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulário de Opções</title>
+  </head>
+  <body>
+    <h2>Formulário de Preferências</h2>
+    <form>
+      <label for="cores">Escolha uma cor:</label>
+      <select id="cores" name="cores">
+        <option value="vermelho">Vermelho</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+      </select>
+      <br /><br />
+
+      <p>Você deseja receber novidades?</p>
+      <input type="radio" id="sim" name="novidades" value="sim" />
+      <label for="sim">Sim</label>
+      <br />
+      <input type="radio" id="nao" name="novidades" value="nao" />
+      <label for="nao">Não</label>
+      <br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
